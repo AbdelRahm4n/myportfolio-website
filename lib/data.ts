@@ -4,7 +4,9 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import project1Img from "@/public/project1.png";
 import flappygImg from "@/public/flappyg.png";
+import emotionImgImg from "@/public/emotionImg.png";
 import unfinishedImg from "@/public/unfinished.png";
+import predictorImg from "@/public/predictor.png";
 
 export const links = [
   {
@@ -62,20 +64,20 @@ export const projectsData = [
     link : "https://github.com/AbdelRahm4n/timetable-manager",
   },
   {
-    title: "Flappy Ghost ML",
+    title: "Emotion Detection ML",
     description:
-    "Mini-game featuring autonomous gameplay powered by machine learning. The ghost is controlled by a model that makes decisions based on the current game state..",
-    tags: ["Java", "JavaFX", "DeepLearning4j"],
-    imageUrl: flappygImg,
-    link : "https://github.com/AbdelRahm4n/timetable-manager",
+      "A real-time webcam emotion detection system implemented using Python, OpenCV, and a pre-trained deep learning model.",
+    tags: ["Python", "OpenCV", "TensorFlow", "Keras"],
+    imageUrl: emotionImgImg,
+    link : "https://github.com/AbdelRahm4n/emotionDetectorML",
   },
   {
-    title: "MoodifyTunes",
+    title: "EPL Predictor Project",
     description:
-      "web application for playlist curation using the Spotify API based on facial expressions analysed using a ML model built with python",
-    tags: ["React", "Next.js", "Tailwind", "Framer-Motion", "Python", "Pytorch", "TensorFlow"],
-    imageUrl: unfinishedImg,
-    link : "https://github.com/AbdelRahm4n/moodify-tunes",
+      "PL match predictor using web scraping, data cleaning and a machine learning model with error measuring and prediciton improvment.",
+    tags: ["Python", "Jupyter", "Pandas", "SciKit-Learn"],
+    imageUrl: predictorImg,
+    link : "https://github.com/AbdelRahm4n/PythonEPL",
   },
 ] as const;
 

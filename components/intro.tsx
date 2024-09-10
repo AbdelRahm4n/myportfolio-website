@@ -44,17 +44,27 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">Hello, I'm Abdel Rahman. </span> I'm a{" "}
-        <span className="font-bold">Mathematics and Computer Science student</span> at{" "}
-        <span className="font-bold">Université de Montréal.</span> My interests are{" "}
-        in <span className="italic">Machine Learning and AI</span>. My focus is{" "}
-        <span className="underline">Python</span>.
-      </motion.h1>
+      <motion.div
+  className="mb-10 mt-4 px-4 text-3xl font-medium !leading-[1.5] sm:text-5xl"
+  initial={{ opacity: 0, y: 100 }}
+  animate={{ opacity: 1, y: 0 }}
+>
+  <h1 className="text-4xl">
+    <span className="font-bold">Hello, I’m Abdelrahman.</span>
+    <br />
+    <span className="text-2xl">
+      I’m an Egyptian studying <span className="font-bold">mathematics and computer science</span> at{" "}
+      <span className="font-bold">Université de Montréal</span>, with a possible interest in exploring quantum
+  cryptography in the future. I’m a curious person with a range of interests and speak{" "}
+      <span className="font-medium">Arabic, French, English, and Spanish.</span>
+    </span>
+    <br />
+    <span className="text-2xl">
+      This is my corner of the web where I showcase my projects and share some thoughts.
+    </span>
+  </h1>
+</motion.div>
+
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

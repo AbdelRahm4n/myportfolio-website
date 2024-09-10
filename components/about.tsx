@@ -33,30 +33,7 @@ export default function About() {
     
         <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      I’m a 20 year old Egyptian currently immersed in the fascinating worlds of {" "}
-        <span className="font-medium">mathematics and computer science</span> at Université de Montréal{" "}
-        <span className="font-medium">since January 2023</span>.{" "}
-        </p>
-
-        <p>
-
-        <span className="italic">In the realm of mathematics,</span> Real Analysis is my niche. I love digging into the details—figuring out how sequences and series come together, playing with limits, and diving into mathematical proofs. It's a journey where things get both simple and complex, and there's something uniquely satisfying and elegant about solving these problems.{" "}
-
-        </p>
-
-        <p>
-
-        Simultaneously, my passion extends into the dynamic universe of <span className="italic">computer science</span>, with a keen focus on <span className="font-medium">Machine Learning</span>. From peeling back the layers of algorithms to crafting intelligent systems that adapt and learn, I am very interested in the transformative power of machine intelligence. My proficiency includes working with powerful frameworks and tools, such as <span className="font-medium">TensorFlow and PyTorch</span>, allowing me to implement and experiment with various machine learning models.{" "}
-{" "}
-
-        </p>
-         
-
-
-        <p>
-        I am also familiar with other languages such as Java, TypeScript and R. I am always looking to
-        learn new technologies. I am currently looking for an{" "}
-        <span className="font-medium">internship</span> as a software developer.
+      i still need to tell you about me...the introduction above should do for now. <p>Also, I REALLY like maths.</p> 
         </p>
         
       

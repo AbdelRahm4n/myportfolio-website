@@ -7,6 +7,7 @@ import flappygImg from "@/public/flappyg.png";
 import emotionImgImg from "@/public/emotionImg.png";
 import unfinishedImg from "@/public/unfinished.png";
 import predictorImg from "@/public/predictor.png";
+import taskManagerImg from "@/public/task-manager.png";
 
 export const links = [
   {
@@ -48,7 +49,7 @@ export const experiencesData = [
     title: "Searching for an internship",
     location: "Montréal, QC",
     description:
-      "Currently searching for an internship in software development. I am looking for an internship that will start in summer 2024.",
+      "Currently searching for an internship in software development. I am looking for an internship or a research opportunity.",
     icon: React.createElement(CgWorkAlt),
     date: "present",
   },
@@ -79,6 +80,14 @@ export const projectsData = [
     imageUrl: predictorImg,
     link : "https://github.com/AbdelRahm4n/PythonEPL",
   },
+  {
+    title: " MERN Task Manager",
+    description:
+      "A tile-based, MERN task manager with authentication and CRUD functionality.",
+    tags: ["MongoDB", "Express", "React", "Node.js"],
+    imageUrl: taskManagerImg,
+    link : "https://github.com/AbdelRahm4n/task-manager",
+  },
 ] as const;
 
 export const skillsData = [
@@ -98,4 +107,15 @@ export const skillsData = [
   "R",
   "Java",
   "Assembly",
+  "SQL",
+  "MongoDB",
+  "Git",
+  "Jupyter",
+  "Pandas",
+  "PHP",
+  "Haskell",
+  "LaTeX",
+  "C++",
+  "Java", 
+  "Lisp",
 ] as const;
